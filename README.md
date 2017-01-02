@@ -1,6 +1,6 @@
 # OpenUnison Kubernetes Quickstart with Active Directory
 
-This qucikstart will provide an identity provider and optionally provide self service user provisioning for RBAC roles.  This quickstart provides:
+This quickstart will provide an identity provider and optionally provide self service user provisioning for RBAC roles.  This quickstart provides:
 
 1. Authentication using LDAP and Active Directory via a "portal"
 2. SSO integration with Kubernetes via the OpenID Connect identity provider integrated into OpenUnison
@@ -8,6 +8,8 @@ This qucikstart will provide an identity provider and optionally provide self se
 4. SSO into the Kubernetes Dashboard
 
 For more details about how Kubernetes and OpenID Connect work to provide authentication see https://www.tremolosecurity.com/wiki/#!kubernetes.md.
+
+Do you want to use an OpenID Connect identity provider like Google, AzureAD or others for authentication?  See our OpenID Connect quick start - https://github.com/TremoloSecurity/openunison-qs-kubernetes.
 
 ## Parts List
 

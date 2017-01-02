@@ -11,6 +11,7 @@
           <proxyTo>#[K8S_DASHBOARD_URL]${fullURI}</proxyTo>
           <results>
             <azSuccess>oauth2bearer</azSuccess>
+            <auFail>Default Login Failure</auFail>
           </results>
           <azRules>
             <rule scope="dn" constraint="o=Tremolo" />
@@ -24,6 +25,7 @@
           <proxyTo>#[K8S_DASHBOARD_URL]${fullURI}</proxyTo>
           <results>
             <azSuccess>oauth2bearer</azSuccess>
+            <auFail>Default Login Failure</auFail>
           </results>
           <azRules>
             <rule scope="dn" constraint="o=Tremolo" />
@@ -37,6 +39,7 @@
           <uri>/</uri>
           <results>
             <azSuccess>toApp</azSuccess>
+            <auFail>Default Login Failure</auFail>
           </results>
           <azRules>
             <rule scope="dn" constraint="o=Tremolo" />
@@ -55,6 +58,7 @@
           <results>
             <azSuccess>
             </azSuccess>
+            <auFail>Default Login Failure</auFail>
           </results>
           <azRules>
             <rule scope="dn" constraint="o=Tremolo" />
@@ -73,6 +77,7 @@
           <results>
             <azSuccess>
             </azSuccess>
+            <auFail>Default Login Failure</auFail>
           </results>
           <azRules>
             <rule scope="dn" constraint="o=Tremolo" />
@@ -99,6 +104,7 @@
           <results>
             <azSuccess>
             </azSuccess>
+            <auFail>Default Login Failure</auFail>
           </results>
           <azRules>
             <rule scope="dn" constraint="o=Tremolo" />
@@ -134,6 +140,7 @@
           <results>
             <azSuccess>
             </azSuccess>
+            <auFail>Default Login Failure</auFail>
           </results>
           <azRules>
             <rule scope="dn" constraint="o=Tremolo" />
@@ -330,7 +337,7 @@
         <required>required</required>
         <params>
           <param name="FORMLOGIN_JSP" value="/auth/forms/defaultForm.jsp"/>
-          <param name="uidAttr" value="sub"/>
+          <param name="uidAttr" value="uid"/>
           <param name="uidIsFilter" value="false"/>
         </params>
       </authMech>
